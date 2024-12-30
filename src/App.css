@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.container>form,
+.data-container {
+    background-color: rgb(0, 72, 139);
+    padding: 25px 30px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    gap: 20px;
+}
+
+.container>form>input {
+    flex: 1;
+    height: 45px;
+    font-size: 18px;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+}
+
+.container>form>button {
+    border: none;
+    outline: none;
+    height: 45px;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.data-container {
+    transition: height 3s ease-in-out;
+    flex-direction: column;
+    color: #fff;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.box>p {
+    font-size: 26px;
+}
+
+.box img {
+    width: 50px;
+}
+
+.tem {
+    text-align: center;
+}
+
+.tem>p {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.tem>span {
+    font-size: 20px;
+}
+
+.sub-box {
+    text-align: center;
+}
+
+.sub-box>div {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 5px;
+}
+
+.sub-box>p {
+    font-size: 22px;
+    margin: 8px 0px;
+}
